@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  underrule:
+  underrule.frontend:
     build:
       args:
         source: obj/Docker/publish/

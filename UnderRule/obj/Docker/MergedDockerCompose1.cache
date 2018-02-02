@@ -1,15 +1,15 @@
 services:
-  underrule:
+  underrule.frontend:
     build:
       args:
         source: obj/Docker/empty/
-      context: C:\www\UnderRule\UnderRule\UnderRule
+      context: C:\www\UnderRule\UnderRule\UnderRule.FrontEnd
       dockerfile: Dockerfile
     entrypoint: tail -f /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-    image: underrule:dev
+    image: underrule.frontend:dev
     labels:
       com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
         -x dotnet); then kill $$PID; fi"
@@ -18,6 +18,6 @@ services:
     ports:
     - 80/tcp
     volumes:
-    - C:\www\UnderRule\UnderRule\UnderRule:/app:rw
+    - C:\www\UnderRule\UnderRule\UnderRule.FrontEnd:/app:rw
     - C:\Users\ryan.coates\vsdbg:/remote_debugger:ro
 version: '3.0'

@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  underrule:
-    image: underrule
+  underrule.frontend:
+    image: underrule.frontend
     build:
-      context: ./UnderRule
+      context: ./UnderRule.FrontEnd
       dockerfile: Dockerfile

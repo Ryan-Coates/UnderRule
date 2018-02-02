@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  underrule:
-    image: underrule:dev
+  underrule.frontend:
+    image: underrule.frontend:dev
     build:
       args:
         source: obj/Docker/empty/
@@ -10,7 +10,7 @@ services:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\www\UnderRule\UnderRule\UnderRule:/app
+      - C:\www\UnderRule\UnderRule\UnderRule.FrontEnd:/app
       - C:\Users\ryan.coates\vsdbg:/remote_debugger:ro
       - C:\Users\ryan.coates\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
