@@ -1,0 +1,11 @@
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\bin\Debug\netcoreapp2.0\UnderRule.Authentication.deps.json
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\bin\Debug\netcoreapp2.0\UnderRule.Authentication.runtimeconfig.json
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\bin\Debug\netcoreapp2.0\UnderRule.Authentication.runtimeconfig.dev.json
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\bin\Debug\netcoreapp2.0\UnderRule.Authentication.dll
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\bin\Debug\netcoreapp2.0\UnderRule.Authentication.pdb
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\obj\Debug\netcoreapp2.0\UnderRule.Authentication.csprojResolveAssemblyReference.cache
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\obj\Debug\netcoreapp2.0\UnderRule.Authentication.csproj.CoreCompileInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\obj\Debug\netcoreapp2.0\UnderRule.Authentication.AssemblyInfoInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\obj\Debug\netcoreapp2.0\UnderRule.Authentication.AssemblyInfo.cs
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\obj\Debug\netcoreapp2.0\UnderRule.Authentication.dll
+C:\www\UnderRule\UnderRule\UnderRule.Authentication\obj\Debug\netcoreapp2.0\UnderRule.Authentication.pdb
