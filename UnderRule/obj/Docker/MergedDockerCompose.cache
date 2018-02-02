@@ -1,0 +1,11 @@
+services:
+  underrule:
+    build:
+      context: C:\www\UnderRule\UnderRule\UnderRule
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: underrule
+    ports:
+    - 80/tcp
+version: '3.0'
