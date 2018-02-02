@@ -8,3 +8,4 @@ C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\Under
 C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.AssemblyInfo.cs
 C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.dll
 C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.pdb
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.csprojResolveAssemblyReference.cache
