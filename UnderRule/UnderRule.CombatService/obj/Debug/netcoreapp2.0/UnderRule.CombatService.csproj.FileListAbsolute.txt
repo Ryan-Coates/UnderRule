@@ -1,0 +1,11 @@
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\bin\Debug\netcoreapp2.0\UnderRule.CombatService.deps.json
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\bin\Debug\netcoreapp2.0\UnderRule.CombatService.runtimeconfig.json
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\bin\Debug\netcoreapp2.0\UnderRule.CombatService.runtimeconfig.dev.json
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\bin\Debug\netcoreapp2.0\UnderRule.CombatService.dll
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\bin\Debug\netcoreapp2.0\UnderRule.CombatService.pdb
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\obj\Debug\netcoreapp2.0\UnderRule.CombatService.csprojResolveAssemblyReference.cache
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\obj\Debug\netcoreapp2.0\UnderRule.CombatService.csproj.CoreCompileInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\obj\Debug\netcoreapp2.0\UnderRule.CombatService.AssemblyInfoInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\obj\Debug\netcoreapp2.0\UnderRule.CombatService.AssemblyInfo.cs
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\obj\Debug\netcoreapp2.0\UnderRule.CombatService.dll
+C:\www\UnderRule\UnderRule\UnderRule.CombatService\obj\Debug\netcoreapp2.0\UnderRule.CombatService.pdb

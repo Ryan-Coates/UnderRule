@@ -1,0 +1,10 @@
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.deps.json
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.runtimeconfig.json
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.runtimeconfig.dev.json
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.dll
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.pdb
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.csproj.CoreCompileInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.AssemblyInfoInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.AssemblyInfo.cs
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.dll
+C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.pdb

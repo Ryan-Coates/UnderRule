@@ -1,0 +1,11 @@
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.deps.json
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.runtimeconfig.json
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.runtimeconfig.dev.json
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.dll
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.pdb
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.csprojResolveAssemblyReference.cache
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.csproj.CoreCompileInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.AssemblyInfoInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.AssemblyInfo.cs
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.dll
+C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.pdb

@@ -1,0 +1,11 @@
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.deps.json
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.runtimeconfig.json
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.runtimeconfig.dev.json
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.dll
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.pdb
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.csprojResolveAssemblyReference.cache
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.csproj.CoreCompileInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.AssemblyInfoInputs.cache
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.AssemblyInfo.cs
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.dll
+C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.pdb

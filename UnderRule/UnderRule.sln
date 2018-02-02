@@ -9,6 +9,16 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.Authentication", "UnderRule.Authentication\UnderRule.Authentication.csproj", "{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonObjects", "CommonObjects\CommonObjects.csproj", "{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderRule.WorldService", "UnderRule.WorldService\UnderRule.WorldService.csproj", "{C6C728FC-6E96-4FB8-878E-FC38C653D499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderRule.PlayerService", "UnderRule.PlayerService\UnderRule.PlayerService.csproj", "{D2FD097A-5BED-4603-A5C1-2A3ED0E79297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderRule.CombatService", "UnderRule.CombatService\UnderRule.CombatService.csproj", "{8B7FD178-050D-4198-9F2E-50E7BC3C44DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.ApiGateway", "UnderRule.ApiGateway\UnderRule.ApiGateway.csproj", "{2D7593B2-6B38-4A31-9C4F-DEA09E297501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +37,26 @@ Global
 		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C728FC-6E96-4FB8-878E-FC38C653D499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C728FC-6E96-4FB8-878E-FC38C653D499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C728FC-6E96-4FB8-878E-FC38C653D499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C728FC-6E96-4FB8-878E-FC38C653D499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FD097A-5BED-4603-A5C1-2A3ED0E79297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FD097A-5BED-4603-A5C1-2A3ED0E79297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FD097A-5BED-4603-A5C1-2A3ED0E79297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FD097A-5BED-4603-A5C1-2A3ED0E79297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7FD178-050D-4198-9F2E-50E7BC3C44DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7FD178-050D-4198-9F2E-50E7BC3C44DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7FD178-050D-4198-9F2E-50E7BC3C44DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7FD178-050D-4198-9F2E-50E7BC3C44DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7593B2-6B38-4A31-9C4F-DEA09E297501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7593B2-6B38-4A31-9C4F-DEA09E297501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7593B2-6B38-4A31-9C4F-DEA09E297501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7593B2-6B38-4A31-9C4F-DEA09E297501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

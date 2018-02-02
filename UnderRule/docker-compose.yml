@@ -12,3 +12,21 @@ services:
     build:
       context: ./UnderRule.Authentication
       dockerfile: Dockerfile
+
+  underrule.worldservice:
+    image: underrule.worldservice
+    build:
+      context: ./UnderRule.WorldService
+      dockerfile: Dockerfile
+
+  underrule.playerservice:
+    image: underrule.playerservice
+    build:
+      context: ./UnderRule.PlayerService
+      dockerfile: Dockerfile
+
+  underrule.combatservice:
+    image: underrule.combatservice
+    build:
+      context: ./UnderRule.CombatService
+      dockerfile: Dockerfile
