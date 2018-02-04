@@ -26,7 +26,7 @@ namespace UnderRule.ApiGateway.Interface
             //todo: validate response, retry
         }
 
-        internal async Task<List<string>> Get(string path, string authToken)
+        internal async Task<string> Get(string path, string authToken)
         {
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authToken);
 
@@ -36,8 +36,7 @@ namespace UnderRule.ApiGateway.Interface
 
             var responseString = response.Content.ReadAsStringAsync().Result;
 
-            List<string> values = JsonConvert.DeserializeObject<List<string>>(responseString);
-            return values;
+            return responseString;
             //return responseString;
         }
     }

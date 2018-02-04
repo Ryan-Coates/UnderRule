@@ -7,6 +7,14 @@
       "DownstreamPort": 5002,
       "UpstreamPathTemplate": "/customers",
       "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/world",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5003,
+      "UpstreamPathTemplate": "/world",
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ],
   "GlobalConfiguration": {
