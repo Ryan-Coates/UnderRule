@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using UnderRule.FrontEnd.Models;
 using Microsoft.AspNetCore.Authorization;
+using CommonObjects;
 
 namespace UnderRule.FrontEnd.Controllers
 {
@@ -20,23 +21,26 @@ namespace UnderRule.FrontEnd.Controllers
         [Authorize]
         public IActionResult Game()
         {
-            Players players = new Players();
-            players._Players = new List<Player>();
-            players._Players.Add(new Player()
-                {
-                    Name = "Shane",
-                    Castle = 1,
-                    Farm = 1
-                }
-            );
-            players._Players.Add(new Player()
-                {
-                    Name = "Ryan",
-                    Castle = 1,
-                    Farm = 1
-                }
-            );
-            return View(players);
+            var world = new World();
+            world.Player = new Player()
+            {
+                Army = 0,
+                Castle = 1,
+                Farm = 1,
+                UserName = "Ryan"
+
+
+            };
+            world.OtherPlayers = new List<Player>();
+            world.OtherPlayers.Add(new Player()
+            {
+                Army = 100,
+                Castle = 10,
+                Farm = 1,
+                UserName = "Shane"
+            });
+
+            return View(world);
         }
 
         public IActionResult About()

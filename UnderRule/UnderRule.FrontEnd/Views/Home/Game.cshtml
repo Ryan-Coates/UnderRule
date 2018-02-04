@@ -1,4 +1,4 @@
-﻿@model Players;
+﻿@model CommonObjects.World;
 @{
     ViewData["Title"] = "Game";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,15 +7,15 @@
 <h1>Game</h1>
 <h1>this is where the game should be</h1>
 
-@foreach (var player in Model._Players)
+<div>
+    <h2>player here</h2>
+    <h2>@Model.Player.UserName</h2>
+</div>
+
+@foreach (var player in Model.OtherPlayers)
 {
 <div>
-    <h2>@player.Name</h2>
-    <button>Farm: @player.Farm</button>
-    <button>Castle: @player.Castle</button>
-    <h6>Changes!</h6>
-    <h6>Changes!123</h6>
-    <h5>sffafa</h5>
-
+    <h2>other players implemented here</h2>
+    
 </div>
 }
