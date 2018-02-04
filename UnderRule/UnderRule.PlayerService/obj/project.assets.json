@@ -13115,7 +13115,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ryan\\.nuget\\packages\\": {},
+    "C:\\Users\\ShaneL-PC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13124,17 +13124,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
+      "projectUniqueName": "A:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
       "projectName": "UnderRule.PlayerService",
-      "projectPath": "D:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
-      "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
-      "outputPath": "D:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\obj\\",
+      "projectPath": "A:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
+      "packagesPath": "C:\\Users\\ShaneL-PC\\.nuget\\packages\\",
+      "outputPath": "A:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ShaneL-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
