@@ -67,3 +67,4 @@ UnderRule/UnderRule.WorldService/bin/Debug/netcoreapp2.0/UnderRule.WorldService.
 UnderRule/UnderRule.WorldService/bin/Debug/netcoreapp2.0/UnderRule.WorldService.runtimeconfig.dev.json
 UnderRule/UnderRule.FrontEnd/obj/Debug/netcoreapp2.0/UnderRule.FrontEnd.csproj.FileListAbsolute.txt
 UnderRule/CommonObjects/obj/Debug/netstandard2.0/CommonObjects.csproj.FileListAbsolute.txt
+UnderRule/UnderRule.FrontEnd/bin/Debug/netcoreapp2.0/UnderRule.FrontEnd.runtimeconfig.dev.json
