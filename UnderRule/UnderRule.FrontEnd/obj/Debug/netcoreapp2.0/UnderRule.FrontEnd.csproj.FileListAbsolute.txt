@@ -20,3 +20,5 @@ D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.
 D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.AssemblyInfo.cs
 D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.dll
 D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.pdb
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\CommonObjects.dll
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\CommonObjects.pdb
