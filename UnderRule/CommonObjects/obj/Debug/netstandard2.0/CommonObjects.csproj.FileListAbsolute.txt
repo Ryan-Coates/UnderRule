@@ -1,9 +1,0 @@
-D:\www\UnderRule\UnderRule\CommonObjects\bin\Debug\netstandard2.0\CommonObjects.deps.json
-D:\www\UnderRule\UnderRule\CommonObjects\bin\Debug\netstandard2.0\CommonObjects.dll
-D:\www\UnderRule\UnderRule\CommonObjects\bin\Debug\netstandard2.0\CommonObjects.pdb
-D:\www\UnderRule\UnderRule\CommonObjects\obj\Debug\netstandard2.0\CommonObjects.csprojResolveAssemblyReference.cache
-D:\www\UnderRule\UnderRule\CommonObjects\obj\Debug\netstandard2.0\CommonObjects.csproj.CoreCompileInputs.cache
-D:\www\UnderRule\UnderRule\CommonObjects\obj\Debug\netstandard2.0\CommonObjects.AssemblyInfoInputs.cache
-D:\www\UnderRule\UnderRule\CommonObjects\obj\Debug\netstandard2.0\CommonObjects.AssemblyInfo.cs
-D:\www\UnderRule\UnderRule\CommonObjects\obj\Debug\netstandard2.0\CommonObjects.dll
-D:\www\UnderRule\UnderRule\CommonObjects\obj\Debug\netstandard2.0\CommonObjects.pdb
