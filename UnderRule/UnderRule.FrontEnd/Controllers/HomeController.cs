@@ -57,5 +57,18 @@ namespace UnderRule.FrontEnd.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult SignUp()
+        {
+            SignupModel model = new SignupModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult SignUp(SignupModel model)
+        {
+            return RedirectToAction("Index");
+        }
+
     }
 }
