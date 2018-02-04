@@ -13115,7 +13115,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ryan.coates\\.nuget\\packages\\": {},
+    "C:\\Users\\ryan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13124,17 +13124,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
+      "projectUniqueName": "D:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
       "projectName": "UnderRule.PlayerService",
-      "projectPath": "C:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
-      "packagesPath": "C:\\Users\\ryan.coates\\.nuget\\packages\\",
-      "outputPath": "C:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\obj\\",
+      "projectPath": "D:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\UnderRule.PlayerService.csproj",
+      "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
+      "outputPath": "D:\\www\\UnderRule\\UnderRule\\UnderRule.PlayerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ryan.coates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13142,10 +13142,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\ryan.coates\\Desktop\\Local Nuget Repo": {},
-        "C:\\www\\tombola.CMS.Umbraco\\src\\.nuget": {},
-        "https://packages.tombola.com/repository/nuget.platform-hosted/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -13161,18 +13158,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.All": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
