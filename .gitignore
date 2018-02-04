@@ -41,3 +41,10 @@ UnderRule/UnderRule.WorldService/obj/UnderRule.WorldService.csproj.nuget.cache
 UnderRule/UnderRule.WorldService/obj/UnderRule.WorldService.csproj.nuget.g.props
 UnderRule/UnderRule.WorldService/obj/Debug/netcoreapp2.0/UnderRule.WorldService.csproj.CoreCompileInputs.cache
 UnderRule/UnderRule.WorldService/obj/Debug/netcoreapp2.0/UnderRule.WorldService.csprojResolveAssemblyReference.cache
+UnderRule/UnderRule.ApiGateway.Interface/obj/UnderRule.ApiGateway.Interface.csproj.nuget.g.targets
+UnderRule/UnderRule.ApiGateway.Interface/obj/Debug/netstandard2.0/UnderRule.ApiGateway.Interface.csproj.FileListAbsolute.txt
+UnderRule/UnderRule.ApiGateway.Interface/obj/UnderRule.ApiGateway.Interface.csproj.nuget.cache
+UnderRule/UnderRule.ApiGateway.Interface/bin/Debug/netstandard2.0/UnderRule.ApiGateway.Interface.deps.json
+UnderRule/UnderRule.ApiGateway.Interface/obj/Debug/netstandard2.0/UnderRule.ApiGateway.Interface.csprojResolveAssemblyReference.cache
+UnderRule/UnderRule.ApiGateway.Interface/obj/UnderRule.ApiGateway.Interface.csproj.nuget.g.props
+UnderRule/UnderRule.ApiGateway.Interface/obj/project.assets.json
