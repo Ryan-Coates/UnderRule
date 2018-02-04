@@ -63,5 +63,4 @@ UnderRule/UnderRule.WorldService/obj/Debug/netcoreapp2.0/UnderRule.WorldService.
 UnderRule/UnderRule.WorldService/bin/Debug/netcoreapp2.0/UnderRule.WorldService.pdb
 UnderRule/UnderRule.WorldService/bin/Debug/netcoreapp2.0/UnderRule.WorldService.dll
 UnderRule/UnderRule.ApiGateway/bin/Debug/netcoreapp2.0/configuration.Development.json
-UnderRule/UnderRule.ApiGateway.Interface/UnderRule.ApiGateway.Interface.csproj
 UnderRule/UnderRule.WorldService/bin/Debug/netcoreapp2.0/UnderRule.WorldService.deps.json
