@@ -1,6 +1,0 @@
-C:\www\UnderRule\UnderRule\UnderRule.PersistanceService\bin\Debug\netstandard2.0\UnderRule.PersistanceService.deps.json
-C:\www\UnderRule\UnderRule\UnderRule.PersistanceService\bin\Debug\netstandard2.0\UnderRule.PersistanceService.dll
-C:\www\UnderRule\UnderRule\UnderRule.PersistanceService\obj\Debug\netstandard2.0\UnderRule.PersistanceService.csprojResolveAssemblyReference.cache
-C:\www\UnderRule\UnderRule\UnderRule.PersistanceService\obj\Debug\netstandard2.0\UnderRule.PersistanceService.csproj.CoreCompileInputs.cache
-C:\www\UnderRule\UnderRule\UnderRule.PersistanceService\obj\Debug\netstandard2.0\UnderRule.PersistanceService.AssemblyInfoInputs.cache
-C:\www\UnderRule\UnderRule\UnderRule.PersistanceService\obj\Debug\netstandard2.0\UnderRule.PersistanceService.AssemblyInfo.cs
