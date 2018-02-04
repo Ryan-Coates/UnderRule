@@ -9,3 +9,14 @@ C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRul
 C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.AssemblyInfo.cs
 C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.dll
 C:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.pdb
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.deps.json
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.runtimeconfig.json
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.runtimeconfig.dev.json
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.dll
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\bin\Debug\netcoreapp2.0\UnderRule.ApiGateway.pdb
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.csprojResolveAssemblyReference.cache
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.csproj.CoreCompileInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.AssemblyInfoInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.AssemblyInfo.cs
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.dll
+D:\www\UnderRule\UnderRule\UnderRule.ApiGateway\obj\Debug\netcoreapp2.0\UnderRule.ApiGateway.pdb

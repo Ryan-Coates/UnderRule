@@ -9,3 +9,14 @@ C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\Under
 C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.dll
 C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.pdb
 C:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.csprojResolveAssemblyReference.cache
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.deps.json
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.runtimeconfig.json
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.runtimeconfig.dev.json
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.dll
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\bin\Debug\netcoreapp2.0\UnderRule.PlayerService.pdb
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.csprojResolveAssemblyReference.cache
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.csproj.CoreCompileInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.AssemblyInfoInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.AssemblyInfo.cs
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.dll
+D:\www\UnderRule\UnderRule\UnderRule.PlayerService\obj\Debug\netcoreapp2.0\UnderRule.PlayerService.pdb

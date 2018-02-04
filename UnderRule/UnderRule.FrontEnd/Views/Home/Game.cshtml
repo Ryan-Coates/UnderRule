@@ -1,0 +1,17 @@
+﻿@model Players;
+@{
+    ViewData["Title"] = "Game";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Game</h1>
+<h1>this is where the game should be</h1>
+
+@foreach (var player in Model._Players)
+{
+<div>
+    <h2>@player.Name</h2>
+    <button>Farm: @player.Farm</button>
+    <button>Castle: @player.Castle</button>
+</div>
+}

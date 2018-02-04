@@ -9,3 +9,14 @@ C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderR
 C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.AssemblyInfo.cs
 C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.dll
 C:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.pdb
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.deps.json
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.runtimeconfig.json
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.runtimeconfig.dev.json
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.dll
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\bin\Debug\netcoreapp2.0\UnderRule.WorldService.pdb
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.csprojResolveAssemblyReference.cache
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.csproj.CoreCompileInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.AssemblyInfoInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.AssemblyInfo.cs
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.dll
+D:\www\UnderRule\UnderRule\UnderRule.WorldService\obj\Debug\netcoreapp2.0\UnderRule.WorldService.pdb

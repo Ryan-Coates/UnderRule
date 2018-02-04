@@ -9,3 +9,14 @@ C:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.
 C:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.AssemblyInfo.cs
 C:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.dll
 C:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.pdb
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\UnderRule.FrontEnd.deps.json
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\UnderRule.FrontEnd.runtimeconfig.json
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\UnderRule.FrontEnd.runtimeconfig.dev.json
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\UnderRule.FrontEnd.dll
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\bin\Debug\netcoreapp2.0\UnderRule.FrontEnd.pdb
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.csprojResolveAssemblyReference.cache
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.csproj.CoreCompileInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.AssemblyInfoInputs.cache
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.AssemblyInfo.cs
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.dll
+D:\www\UnderRule\UnderRule\UnderRule.FrontEnd\obj\Debug\netcoreapp2.0\UnderRule.FrontEnd.pdb

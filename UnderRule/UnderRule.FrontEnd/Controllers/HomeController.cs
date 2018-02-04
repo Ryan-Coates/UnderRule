@@ -12,12 +12,33 @@ namespace UnderRule.FrontEnd.Controllers
     
     public class HomeController : Controller
     {
-        [Authorize]
         public IActionResult Index()
         {
             return View();
         }
-        
+
+        [Authorize]
+        public IActionResult Game()
+        {
+            Players players = new Players();
+            players._Players = new List<Player>();
+            players._Players.Add(new Player()
+                {
+                    Name = "Shane",
+                    Castle = 1,
+                    Farm = 1
+                }
+            );
+            players._Players.Add(new Player()
+                {
+                    Name = "Ryan",
+                    Castle = 1,
+                    Farm = 1
+                }
+            );
+            return View(players);
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
