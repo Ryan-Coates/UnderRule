@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.CombatService", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.ApiGateway", "UnderRule.ApiGateway\UnderRule.ApiGateway.csproj", "{2D7593B2-6B38-4A31-9C4F-DEA09E297501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderRule.ApiGateway.Interface", "UnderRule.ApiGateway.Interface\UnderRule.ApiGateway.Interface.csproj", "{EDF0082D-3B5D-489D-96CD-836840C5470E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.ApiGateway.Interface", "UnderRule.ApiGateway.Interface\UnderRule.ApiGateway.Interface.csproj", "{EDF0082D-3B5D-489D-96CD-836840C5470E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderRule.RegistrationService", "..\UnderRule.RegistrationService\UnderRule.RegistrationService.csproj", "{DFD282D3-419C-4E97-B4AE-478BD341471A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EDF0082D-3B5D-489D-96CD-836840C5470E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF0082D-3B5D-489D-96CD-836840C5470E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF0082D-3B5D-489D-96CD-836840C5470E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD282D3-419C-4E97-B4AE-478BD341471A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD282D3-419C-4E97-B4AE-478BD341471A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD282D3-419C-4E97-B4AE-478BD341471A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD282D3-419C-4E97-B4AE-478BD341471A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

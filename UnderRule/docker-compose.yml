@@ -30,3 +30,10 @@ services:
     build:
       context: ./UnderRule.CombatService
       dockerfile: Dockerfile
+
+  underrule.registrationservice:
+    image: underrule.registrationservice
+    build:
+      context: .
+      dockerfile: ../UnderRule.RegistrationService/Dockerfile
+

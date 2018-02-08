@@ -72,3 +72,11 @@ UnderRule/UnderRule.FrontEnd/bin/Debug/netcoreapp2.0/CommonObjects.dll
 UnderRule/UnderRule.FrontEnd/bin/Debug/netcoreapp2.0/UnderRule.FrontEnd.dll
 UnderRule/UnderRule.FrontEnd/bin/Debug/netcoreapp2.0/UnderRule.FrontEnd.pdb
 UnderRule/UnderRule.Authentication/obj/Debug/netcoreapp2.0/UnderRule.Authentication.csproj.FileListAbsolute.txt
+UnderRule.RegistrationService/obj/project.assets.json
+UnderRule.RegistrationService/obj/UnderRule.RegistrationService.csproj.nuget.g.targets
+UnderRule.RegistrationService/obj/UnderRule.RegistrationService.csproj.nuget.g.props
+UnderRule.RegistrationService/obj/Debug/netcoreapp2.0/UnderRule.RegistrationService.csproj.FileListAbsolute.txt
+UnderRule.RegistrationService/obj/Debug/netcoreapp2.0/UnderRule.RegistrationService.AssemblyInfo.cs
+UnderRule.RegistrationService/bin/Debug/netcoreapp2.0/UnderRule.RegistrationService.runtimeconfig.dev.json
+UnderRule.RegistrationService/bin/Debug/netcoreapp2.0/UnderRule.RegistrationService.deps.json
+UnderRule.RegistrationService/bin/Debug/netcoreapp2.0/UnderRule.RegistrationService.runtimeconfig.json
