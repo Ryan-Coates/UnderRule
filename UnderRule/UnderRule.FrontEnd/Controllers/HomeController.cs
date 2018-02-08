@@ -7,12 +7,21 @@ using Microsoft.AspNetCore.Mvc;
 using UnderRule.FrontEnd.Models;
 using Microsoft.AspNetCore.Authorization;
 using CommonObjects;
+using UnderRule.ApiGateway.Interface;
+using UnderRule.ApiGateway.Interface.APIEntities;
 
 namespace UnderRule.FrontEnd.Controllers
 {
     
     public class HomeController : Controller
     {
+        RegistrationAPI registrationAPI;
+        public HomeController()
+        {
+            HTTPRequester requester = new HTTPRequester("http://localhost:9000");
+            registrationAPI = new RegistrationAPI(requester);
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -64,13 +73,14 @@ namespace UnderRule.FrontEnd.Controllers
 
         public IActionResult SignUp()
         {
-            SignupModel model = new SignupModel();
+            RegistrationModel model = new RegistrationModel();
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult SignUp(SignupModel model)
+        public async Task<IActionResult> SignUp(RegistrationModel model)
         {
+            await registrationAPI.PostAsync(model);
             return RedirectToAction("Index");
         }
 

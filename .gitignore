@@ -80,3 +80,10 @@ UnderRule.RegistrationService/obj/Debug/netcoreapp2.0/UnderRule.RegistrationServ
 UnderRule.RegistrationService/bin/Debug/netcoreapp2.0/UnderRule.RegistrationService.runtimeconfig.dev.json
 UnderRule.RegistrationService/bin/Debug/netcoreapp2.0/UnderRule.RegistrationService.deps.json
 UnderRule.RegistrationService/bin/Debug/netcoreapp2.0/UnderRule.RegistrationService.runtimeconfig.json
+UnderRule/UnderRule.FrontEnd/obj/Debug/netcoreapp2.0/UnderRule.FrontEnd.pdb
+UnderRule/UnderRule.ApiGateway.Interface/APIEntities/RegistrationAPI.cs
+UnderRule/UnderRule.FrontEnd/obj/Debug/netcoreapp2.0/UnderRule.FrontEnd.dll
+UnderRule/CommonObjects/obj/Debug/netstandard2.0/CommonObjects.csprojResolveAssemblyReference.cache
+UnderRule/UnderRule.FrontEnd/bin/Debug/netcoreapp2.0/CommonObjects.pdb
+UnderRule.RegistrationService/obj/Debug/netcoreapp2.0/UnderRule.RegistrationService.AssemblyInfoInputs.cache
+UnderRule.RegistrationService/obj/Debug/netcoreapp2.0/UnderRule.RegistrationService.csproj.CoreCompileInputs.cache

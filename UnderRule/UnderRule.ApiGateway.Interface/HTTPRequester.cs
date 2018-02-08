@@ -18,12 +18,13 @@ namespace UnderRule.ApiGateway.Interface
             client.BaseAddress = new Uri(gatewayUrl);
         }
 
-        internal async Task PostAsync(string path, HttpContent data)
+        internal async Task<bool> PostAsync(string path, HttpContent data)
         {
 
             var response = await client.PostAsync(path, data);
 
             //todo: validate response, retry
+            return true;
         }
 
         internal async Task<string> Get(string path, string authToken)

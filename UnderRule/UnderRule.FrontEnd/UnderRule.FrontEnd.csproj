@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CommonObjects\CommonObjects.csproj" />
+    <ProjectReference Include="..\UnderRule.ApiGateway.Interface\UnderRule.ApiGateway.Interface.csproj" />
   </ItemGroup>
 
 </Project>
