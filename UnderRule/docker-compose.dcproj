@@ -3,13 +3,12 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.0</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>06762343-d75e-4bca-902c-38a9491b32c3</ProjectGuid>
+    <ProjectGuid>a210edc3-d42b-46b0-8833-0d9ddd65b2c7</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>http://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>underrule.frontend</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
-    <None Include=".dockerignore" />
     <None Include="docker-compose.ci.build.yml" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>

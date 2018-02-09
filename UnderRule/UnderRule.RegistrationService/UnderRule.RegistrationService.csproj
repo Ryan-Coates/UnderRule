@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UnderRule\CommonObjects\CommonObjects.csproj" />
+    <ProjectReference Include="..\CommonObjects\CommonObjects.csproj" />
   </ItemGroup>
 
 </Project>

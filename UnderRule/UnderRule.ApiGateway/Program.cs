@@ -16,8 +16,7 @@ namespace Tombola.ApiGateway
             });
             builder.UseKestrel()
                    .UseContentRoot(Directory.GetCurrentDirectory())
-                   .UseStartup<Startup>()
-                   .UseUrls("http://localhost:9000");
+                   .UseStartup<Startup>();
 
             var host = builder.Build();
             host.Run();

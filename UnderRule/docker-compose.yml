@@ -7,16 +7,16 @@ services:
       context: ./UnderRule.FrontEnd
       dockerfile: Dockerfile
 
+  underrule.apigateway:
+    image: underrule.apigateway
+    build:
+      context: ./UnderRule.ApiGateway
+      dockerfile: Dockerfile
+
   underrule.authentication:
     image: underrule.authentication
     build:
       context: ./UnderRule.Authentication
-      dockerfile: Dockerfile
-
-  underrule.worldservice:
-    image: underrule.worldservice
-    build:
-      context: ./UnderRule.WorldService
       dockerfile: Dockerfile
 
   underrule.playerservice:
@@ -25,15 +25,14 @@ services:
       context: ./UnderRule.PlayerService
       dockerfile: Dockerfile
 
-  underrule.combatservice:
-    image: underrule.combatservice
-    build:
-      context: ./UnderRule.CombatService
-      dockerfile: Dockerfile
-
   underrule.registrationservice:
     image: underrule.registrationservice
     build:
-      context: .
-      dockerfile: ../UnderRule.RegistrationService/Dockerfile
+      context: ./UnderRule.RegistrationService
+      dockerfile: Dockerfile
 
+  underrule.worldservice:
+    image: underrule.worldservice
+    build:
+      context: ./UnderRule.WorldService
+      dockerfile: Dockerfile
