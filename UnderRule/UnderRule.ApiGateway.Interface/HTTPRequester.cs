@@ -40,5 +40,19 @@ namespace UnderRule.ApiGateway.Interface
             return responseString;
             //return responseString;
         }
+
+        internal async Task<string> Get(string path, int id, string authToken)
+        {
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authToken);
+
+            var response = await client.GetAsync(path+"/"+id);
+
+            //todo: validate response, retry
+
+            var responseString = response.Content.ReadAsStringAsync().Result;
+
+            return responseString;
+            //return responseString;
+        }
     }
 }

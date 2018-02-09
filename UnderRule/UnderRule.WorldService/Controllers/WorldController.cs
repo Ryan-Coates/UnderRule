@@ -13,7 +13,7 @@ namespace UnderRule.WorldService.Controllers
     public class WorldController : Controller
     {
         [HttpGet]
-        public World Get()
+        public World Get(int id)
         {
             var world = new World();
             world.Player = new Player()

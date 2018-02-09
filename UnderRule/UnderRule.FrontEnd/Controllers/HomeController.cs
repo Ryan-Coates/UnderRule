@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using CommonObjects;
 using UnderRule.ApiGateway.Interface;
 using UnderRule.ApiGateway.Interface.APIEntities;
+using System.Security.Claims;
 
 namespace UnderRule.FrontEnd.Controllers
 {
@@ -16,10 +17,14 @@ namespace UnderRule.FrontEnd.Controllers
     public class HomeController : Controller
     {
         RegistrationAPI registrationAPI;
+        PlayerAPI playerAPI;
+        WorldAPI worldAPI;
         public HomeController()
         {
             HTTPRequester requester = new HTTPRequester("http://localhost:9000");
             registrationAPI = new RegistrationAPI(requester);
+            playerAPI = new PlayerAPI(requester);
+            worldAPI = new WorldAPI(requester);
         }
 
         public IActionResult Index()
@@ -28,27 +33,21 @@ namespace UnderRule.FrontEnd.Controllers
         }
 
         [Authorize]
-        public IActionResult Game()
+        public async Task<IActionResult> Game()
         {
-            var world = new World();
-            world.Player = new Player()
+            //todo: get auth token
+           
+            int userId = 0;
+            var claims = ((ClaimsIdentity)User.Identity).Claims;
+            foreach (var claim in claims)
             {
-                Army = 0,
-                Castle = 1,
-                Farm = 1,
-                UserName = "Ryan"
+                if (claim.Type == "sub")
+                {
+                    userId = int.Parse(claim.Value);
+                }
+            }
 
-
-            };
-            world.OtherPlayers = new List<Player>();
-            world.OtherPlayers.Add(new Player()
-            {
-                Army = 100,
-                Castle = 10,
-                Farm = 1,
-                UserName = "Shane"
-            });
-
+            var world = await worldAPI.GetAsync(userId, "xx");
             return View(world);
         }
 
@@ -81,6 +80,7 @@ namespace UnderRule.FrontEnd.Controllers
         public async Task<IActionResult> SignUp(RegistrationModel model)
         {
             await registrationAPI.PostAsync(model);
+            //register player
             return RedirectToAction("Index");
         }
 
