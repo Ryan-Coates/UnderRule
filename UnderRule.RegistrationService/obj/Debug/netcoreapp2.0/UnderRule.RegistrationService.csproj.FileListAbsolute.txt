@@ -1,0 +1,11 @@
+A:\www\UnderRule\UnderRule.RegistrationService\bin\Debug\netcoreapp2.0\UnderRule.RegistrationService.deps.json
+A:\www\UnderRule\UnderRule.RegistrationService\bin\Debug\netcoreapp2.0\UnderRule.RegistrationService.runtimeconfig.json
+A:\www\UnderRule\UnderRule.RegistrationService\bin\Debug\netcoreapp2.0\UnderRule.RegistrationService.runtimeconfig.dev.json
+A:\www\UnderRule\UnderRule.RegistrationService\bin\Debug\netcoreapp2.0\UnderRule.RegistrationService.dll
+A:\www\UnderRule\UnderRule.RegistrationService\bin\Debug\netcoreapp2.0\UnderRule.RegistrationService.pdb
+A:\www\UnderRule\UnderRule.RegistrationService\obj\Debug\netcoreapp2.0\UnderRule.RegistrationService.csprojResolveAssemblyReference.cache
+A:\www\UnderRule\UnderRule.RegistrationService\obj\Debug\netcoreapp2.0\UnderRule.RegistrationService.csproj.CoreCompileInputs.cache
+A:\www\UnderRule\UnderRule.RegistrationService\obj\Debug\netcoreapp2.0\UnderRule.RegistrationService.AssemblyInfoInputs.cache
+A:\www\UnderRule\UnderRule.RegistrationService\obj\Debug\netcoreapp2.0\UnderRule.RegistrationService.AssemblyInfo.cs
+A:\www\UnderRule\UnderRule.RegistrationService\obj\Debug\netcoreapp2.0\UnderRule.RegistrationService.dll
+A:\www\UnderRule\UnderRule.RegistrationService\obj\Debug\netcoreapp2.0\UnderRule.RegistrationService.pdb
