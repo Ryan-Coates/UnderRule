@@ -21,7 +21,7 @@ namespace UnderRule.FrontEnd.Controllers
         WorldAPI worldAPI;
         public HomeController()
         {
-            HTTPRequester requester = new HTTPRequester("http://localhost:9000");
+            HTTPRequester requester = new HTTPRequester("http://underrule.apigateway:9000");
             registrationAPI = new RegistrationAPI(requester);
             playerAPI = new PlayerAPI(requester);
             worldAPI = new WorldAPI(requester);

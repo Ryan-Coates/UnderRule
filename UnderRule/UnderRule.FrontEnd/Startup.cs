@@ -36,7 +36,7 @@ namespace UnderRule.FrontEnd
                 {
                     options.SignInScheme = "Cookies";
 
-                    options.Authority = "http://localhost:5001";
+                    options.Authority = "http://underrule.authentication:5001";
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";
