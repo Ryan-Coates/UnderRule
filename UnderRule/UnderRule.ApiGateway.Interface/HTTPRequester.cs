@@ -18,12 +18,13 @@ namespace UnderRule.ApiGateway.Interface
             client.BaseAddress = new Uri(gatewayUrl);
         }
 
-        internal async Task PostAsync(string path, HttpContent data)
+        internal async Task<bool> PostAsync(string path, HttpContent data)
         {
 
             var response = await client.PostAsync(path, data);
 
             //todo: validate response, retry
+            return true;
         }
 
         internal async Task<string> Get(string path, string authToken)
@@ -31,6 +32,20 @@ namespace UnderRule.ApiGateway.Interface
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authToken);
 
             var response = await client.GetAsync(path);
+
+            //todo: validate response, retry
+
+            var responseString = response.Content.ReadAsStringAsync().Result;
+
+            return responseString;
+            //return responseString;
+        }
+
+        internal async Task<string> Get(string path, int id, string authToken)
+        {
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authToken);
+
+            var response = await client.GetAsync(path+"/"+id);
 
             //todo: validate response, retry
 

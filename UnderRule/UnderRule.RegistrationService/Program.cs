@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace UnderRule.CombatService
+namespace UnderRule.RegistrationService
 {
     public class Program
     {
@@ -19,8 +19,8 @@ namespace UnderRule.CombatService
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseKestrel()
                 .UseStartup<Startup>()
-                .UseUrls("http://127.0.0.1:5005/")
                 .Build();
     }
 }
