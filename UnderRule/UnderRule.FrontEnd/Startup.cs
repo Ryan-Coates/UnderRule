@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.IdentityModel.Tokens.Jwt;
+using System.Net;
 
 namespace UnderRule.FrontEnd
 {
@@ -22,6 +23,7 @@ namespace UnderRule.FrontEnd
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            ServicePointManager.ServerCertificateValidationCallback +=   (sender, cert, chain, sslPolicyErrors) => true;
             services.AddMvc();
 
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
@@ -36,7 +38,7 @@ namespace UnderRule.FrontEnd
                 {
                     options.SignInScheme = "Cookies";
 
-                    options.Authority = "http://127.0.0.1:8000";
+                    options.Authority = "http://sarls.duckdns.org:8000/";
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";

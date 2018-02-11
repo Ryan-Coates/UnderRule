@@ -30,3 +30,5 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "5003:80"
+
+  

@@ -30,3 +30,4 @@ services:
     build:
       context: ./UnderRule.WorldService
       dockerfile: Dockerfile
+        
