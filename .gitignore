@@ -16,9 +16,11 @@ UnderRule/UnderRule.FrontEnd/obj/
 UnderRule/UnderRule.ApiGateway.Interface/bin/
 UnderRule/CommonObjects/bin/
 UnderRule/UnderRule.WorldService/bin/
-UnderRule/.vs/
 UnderRule/UnderRule.Authentication/bin/
 UnderRule/UnderRule.CombatService/bin/
-Underrule.Authentication/UnderRule.Authentication/.vs/
 Underrule.Authentication/UnderRule.Authentication/bin/
 Underrule.Authentication/UnderRule.Authentication/obj/
+UnderRule/.vs/UnderRule/v15/Server/sqlite3/storage.ide-wal
+UnderRule/.vs/UnderRule/v15/Server/sqlite3/storage.ide-shm
+UnderRule/.vs/UnderRule/v15/Server/sqlite3/storage.ide
+UnderRule/.vs/UnderRule/v15/Server/sqlite3/db.lock
