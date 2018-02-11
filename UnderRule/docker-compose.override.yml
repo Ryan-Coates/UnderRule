@@ -13,12 +13,6 @@ services:
     ports:
       - "9000:80"
 
-  underrule.authentication:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "5001:80"
-
   underrule.playerservice:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development

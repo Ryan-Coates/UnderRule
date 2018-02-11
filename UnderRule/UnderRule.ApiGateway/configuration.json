@@ -4,7 +4,7 @@
       "DownstreamPathTemplate": "/api/values",
       "DownstreamScheme": "http",
       "DownstreamHost": "localhost",
-      "DownstreamPort": 5002,
+      "DownstreamPort": 80,
       "UpstreamPathTemplate": "/customers",
       "UpstreamHttpMethod": [ "Get" ]
     },
@@ -12,7 +12,7 @@
       "DownstreamPathTemplate": "/api/world",
       "DownstreamScheme": "http",
       "DownstreamHost": "underrule.worldservice",
-      "DownstreamPort": 5003,
+      "DownstreamPort": 80,
       "UpstreamPathTemplate": "/world",
       "UpstreamHttpMethod": [ "Get" ]
     },
@@ -20,7 +20,7 @@
       "DownstreamPathTemplate": "/api/registration",
       "DownstreamScheme": "http",
       "DownstreamHost": "underrule.registrationservice",
-      "DownstreamPort": 5004,
+      "DownstreamPort": 80,
       "UpstreamPathTemplate": "/registration",
       "UpstreamHttpMethod": [ "post" ]
     }

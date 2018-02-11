@@ -19,3 +19,6 @@ UnderRule/UnderRule.WorldService/bin/
 UnderRule/.vs/
 UnderRule/UnderRule.Authentication/bin/
 UnderRule/UnderRule.CombatService/bin/
+Underrule.Authentication/UnderRule.Authentication/.vs/
+Underrule.Authentication/UnderRule.Authentication/bin/
+Underrule.Authentication/UnderRule.Authentication/obj/

@@ -10,7 +10,7 @@ namespace UnderRule.ApiGateway.Interface.APIEntities
 {
     public class RegistrationAPI
     {
-        private readonly string path = "/registration";
+        private readonly string path = "registration";
         private readonly HTTPRequester requester;
 
         public RegistrationAPI(HTTPRequester requester)

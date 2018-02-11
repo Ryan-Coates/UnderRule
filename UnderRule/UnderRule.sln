@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.FrontEnd", "UnderRule.FrontEnd\UnderRule.FrontEnd.csproj", "{C35C4452-B367-4415-9D2A-4B99A9D998F9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderRule.Authentication", "UnderRule.Authentication\UnderRule.Authentication.csproj", "{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonObjects", "CommonObjects\CommonObjects.csproj", "{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}"
 EndProject
@@ -33,10 +31,6 @@ Global
 		{C35C4452-B367-4415-9D2A-4B99A9D998F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35C4452-B367-4415-9D2A-4B99A9D998F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35C4452-B367-4415-9D2A-4B99A9D998F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A46B79E9-5A66-46EF-AEB3-3837DDAA5554}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0016E516-5EE6-47F9-BEA8-5EE79D22D98D}.Release|Any CPU.ActiveCfg = Release|Any CPU

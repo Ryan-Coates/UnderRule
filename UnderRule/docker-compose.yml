@@ -12,13 +12,7 @@ services:
     build:
       context: ./UnderRule.ApiGateway
       dockerfile: Dockerfile
-
-  underrule.authentication:
-    image: underrule.authentication
-    build:
-      context: ./UnderRule.Authentication
-      dockerfile: Dockerfile
-
+       
   underrule.playerservice:
     image: underrule.playerservice
     build:
