@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
@@ -18,23 +19,23 @@ namespace UnderRule.Authentication.Services
             string connectionString = "datasource=sarls.duckdns.org;port=3306;username=root;password=root_password";
 
             string Query = "Select id, username, password FROM UnderRule.Users where username ='" + username + "';";
-
-            MySqlConnection connection = new MySqlConnection(connectionString);
-            MySqlCommand myCommand = new MySqlCommand(Query, connection);
-
-            using (myCommand)
+            
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                using (connection)
+                using (MySqlCommand myCommand = new MySqlCommand(Query, connection))
                 {
                     connection.Open();
-                    using (MySqlDataReader rdr = myCommand.ExecuteReader())
+                   
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(Query, connection);
+                    DataSet DS = new DataSet();
+                    //get query results in dataset
+                    adapter.Fill(DS);
+                    if (DS.Tables[0].Rows.Count > 0)
                     {
-                        int id = int.Parse(rdr[0].ToString());
-                        string dbUsername = rdr[1].ToString();
-                        string dbPassword = rdr[2].ToString();
-
-                        rdr.Close();
-
+                        var row = DS.Tables[0].Rows[0];
+                        int id = int.Parse(row[0].ToString());
+                        string dbUsername = row[1].ToString();
+                        string dbPassword = row[2].ToString();
                         if (password == dbPassword)
                         {
                             return id;
@@ -45,8 +46,14 @@ namespace UnderRule.Authentication.Services
                             return -1;
                         }
                     }
+                    else
+                    {
+                        return -1;
+                    }
                 }
             }
+
+            return -1;
         }
 
             
