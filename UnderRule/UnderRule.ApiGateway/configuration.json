@@ -11,16 +11,16 @@
     {
       "DownstreamPathTemplate": "/api/world",
       "DownstreamScheme": "http",
-      "DownstreamHost": "underrule.worldservice",
-      "DownstreamPort": 80,
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5003,
       "UpstreamPathTemplate": "/world",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
       "DownstreamPathTemplate": "/api/registration",
       "DownstreamScheme": "http",
-      "DownstreamHost": "underrule.registrationservice",
-      "DownstreamPort": 80,
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5004,
       "UpstreamPathTemplate": "/registration",
       "UpstreamHttpMethod": [ "post" ]
     }
