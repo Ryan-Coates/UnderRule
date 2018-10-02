@@ -15,7 +15,24 @@ namespace UnderRule.Authentication.Services
             //todo: shane do this!
             //check username and password match
             //get the users userid
+            //okay thanks!
 
+            if (username == "shane")
+            {
+                return 1;
+            }
+            else if (username == "ryan")
+            {
+                return 2;
+            }
+            else
+            {
+                return 0;
+            }
+                
+                
+                
+                /*
             string connectionString = "datasource=sarls.duckdns.org;port=3306;username=root;password=root_password";
 
             string Query = "Select id, username, password FROM UnderRule.Users where username ='" + username + "';";
@@ -50,10 +67,11 @@ namespace UnderRule.Authentication.Services
                     {
                         return -1;
                     }
+                    */
                 }
             }
 
-            return -1;
+            
         }
 
             
