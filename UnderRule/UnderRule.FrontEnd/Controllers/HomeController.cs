@@ -21,7 +21,8 @@ namespace UnderRule.FrontEnd.Controllers
         WorldAPI worldAPI;
         public HomeController()
         {
-            HTTPRequester requester = new HTTPRequester("http://underrule.apigateway");
+            //HTTPRequester requester = new HTTPRequester("http://underrule.apigateway");
+            HTTPRequester requester = new HTTPRequester("http://localhost:9000");
             registrationAPI = new RegistrationAPI(requester);
             playerAPI = new PlayerAPI(requester);
             worldAPI = new WorldAPI(requester);
@@ -80,7 +81,8 @@ namespace UnderRule.FrontEnd.Controllers
         public async Task<IActionResult> SignUp(RegistrationModel model)
         {
             await registrationAPI.PostAsync(model);
-            //register player
+            await playerAPI.PostAsync(model);
+            //todo validate responses
             return RedirectToAction("Index");
         }
 
