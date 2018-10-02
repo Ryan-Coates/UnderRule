@@ -1,1 +1,1 @@
-﻿docker run -it -d -p 8088:8088 -e ASPNETCORE_URLS="https://*:8088" --name underrule.authentication hellcaller89/underrule.authentication:latest
+﻿docker run -it -d -p 8088:8088 -e ASPNETCORE_URLS="http://*:8088" --name underrule.authentication hellcaller89/underrule.authentication:latest
