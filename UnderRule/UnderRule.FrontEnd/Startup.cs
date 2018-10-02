@@ -38,7 +38,7 @@ namespace UnderRule.FrontEnd
                 {
                     options.SignInScheme = "Cookies";
 
-                    options.Authority = "http://sarls.duckdns.org:8000/";
+                    options.Authority = "http://localhost:5001";
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";
