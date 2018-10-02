@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CommonObjects;
 using Microsoft.AspNetCore.Mvc;
 
 namespace UnderRule.CombatService.Controllers
@@ -13,7 +14,18 @@ namespace UnderRule.CombatService.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            Player player1 = new Player();
+            player1.Army = 10;
+
+            Player player2 = new Player
+            {
+                Army = 20
+            };
+
+            Battle battle = new Battle(player1, player2);
+            var results = battle.RunFight();
+
+            return new string[] { "value1", "value2", results.ResultMessage };
         }
 
         // GET api/values/5
